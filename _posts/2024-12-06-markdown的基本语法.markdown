@@ -4,6 +4,7 @@ title:        "Mark基本语法"
 author:       "mjc"
 header-style: text
 catalog:      true
+mathjax: true
 tags:
     - Web
     - JavaScript
