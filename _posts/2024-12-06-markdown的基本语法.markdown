@@ -1,0 +1,170 @@
+---
+layout:       post
+title:        "Mark基本语法"
+author:       "mjc"
+header-style: text
+catalog:      true
+tags:
+    - Web
+    - JavaScript
+    - markdown
+---
+# 1.标题
+
+我展示的是一级标题
+=================
+
+我展示的是二级标题
+-----------------
+
+
+# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+
+# 2.段落
+无
+# 3.字体
+*斜体文本*
+_斜体文本_
+**粗体文本**
+__粗体文本__
+***粗斜体文本***
+___粗斜体文本___
+
+# 4.分割线
+***
+---
+___
+# 5.删除线
+RUNOOB.COM
+GOOGLE.COM
+~~BAIDU.COM~~
+# 6.下划线
+<u>带下划线文本</u>
+# 7.脚注
+创建脚注格式类似这样 [^mjc]。
+
+[^mjc]: 使用遥遥领先Mate99发布！！！
+# 8.列表
+* 第一项
+* 第二项
+* 第三项
+
++ 第一项
++ 第二项
++ 第三项
+
+
+- 第一项
+- 第二项
+- 第三项
+1. 第一项
+2. 第二项
+3. 第三项
+# 9.列表嵌套
+1. 第一项：
+    - 第一项嵌套的第一个元素
+    - 第一项嵌套的第二个元素
+2. 第二项：
+    - 第二项嵌套的第一个元素
+    - 第二项嵌套的第二个元素
+        - 第二项嵌套的第二个元素的第一个元素
+        - 第二项嵌套的第二个元素的第二个元素
+# 10.区块
+- 最外层
+ > 第一层嵌套
+ > > 第二层嵌套
+- 区块引用
+- 菜鸟教程
+- 学的不仅是技术更是梦想
+# 11.代码
+`printf()` 函数
+ ```javascript
+ less: {
+            expanded: {
+                options: {
+                    paths: ["css"]
+                },
+                files: {
+                    "css/<%= pkg.name %>.css": "less/<%= pkg.name %>.less"
+                }
+            },
+            minified: {
+                options: {
+                    paths: ["css"],
+                    cleancss: true
+                },
+                files: {
+                    "css/<%= pkg.name %>.min.css": "less/<%= pkg.name %>.less"
+                }
+            }
+        },
+```
+# 12.链接
+[我的主页](http://mjcocw.github.io/)
+
+或者
+
+<http://mjcocw.github.io/>
+# 13.高级链接
+这个链接用 1 作为网址变量 [Google][1]
+这个链接用 runoob 作为网址变量 [Runoob][runoob]
+然后在文档的结尾为变量赋值（网址）
+
+[1]: http://www.google.com/
+[runoob]: http://www.runoob.com/
+# 14.图片
+![图片无法加载时显示的文字](/img/post-bg-ios9-web.jpg)
+![图片无法加载时显示的文字](/img/post-bg-ios9-web6.jpg)
+
+![手机图片](/img/post-bg-ios9-web.jpg "显示标题")
+<img src='//img/post-bg-ios9-web.jpg' width="50%">
+# 15.表格
+|  单价   | 数量  |
+|  ----  | ----  |
+| 1.0  | 2 |
+| 3.5  | 4 |
+
+| 左对齐 | 右对齐 | 居中对齐 |
+| :-----| ----: | :----: |
+| 123456 | 123456 | 123456 |
+| 12 | 13 | 14 |
+# 16.html元素直接使用
+
+<b>使用b粗体</b>
+ <i>使用i斜体</i>
+ <em>使用em强调</em>
+ <sup>使用sup显示一半高度</sup>
+ <sub>使用sub显示一半高度</sub>
+使用br <br>换行
+使用 <kbd>键盘</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑
+# 17.转义
+**文本加粗** 
+\*\* 正常显示星号 \*\*
+# 18.公式
+$$
+\begin{Bmatrix}
+   a & b \\
+   c & d
+\end{Bmatrix}
+$$
+$$
+\begin{CD}
+   A @>a>> B \\
+@VbVV @AAcA \\
+   C @= D
+\end{CD}
+$$
+
+
+
+
+
+
+
+
+
